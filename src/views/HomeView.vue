@@ -2,7 +2,7 @@
 <script setup lang="ts">
 import YouTubePlayer from "../components/YouTubePlayer.vue";
 
-const videos = Array.from({ length: 30 }, (_, index) => index + 1);
+const videos = Array.from({ length: 100 }, (_, index) => index + 1);
 </script>
 
 <template>
@@ -20,7 +20,7 @@ const videos = Array.from({ length: 30 }, (_, index) => index + 1);
 <style scoped>
 .video-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 20px;
 }
 
