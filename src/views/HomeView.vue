@@ -2,7 +2,7 @@
 <script setup lang="ts">
 import YouTubePlayer from "../components/YouTubePlayer.vue";
 
-const videos = Array.from({ length: 100 }, (_, index) => index + 1);
+const videos = Array.from({ length: 20 }, (_, index) => index + 1);
 </script>
 
 <template>
